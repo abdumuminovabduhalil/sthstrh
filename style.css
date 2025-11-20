@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ff7a00, #ff3838);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+
+  gap: 20px;
+  text-align: center;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 40px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.label {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
+}
